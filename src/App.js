@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
-
-
+import React, { Component } from "react";
+import Tools from "./pages/tools/tools";
 
 class App extends Component {
   render() {
-    return (
-      <div>
-        <h3>Vuttr App</h3> 
-      </div>
-    );
+    return <Tools />;
   }
 }
 
 export default App;
+
